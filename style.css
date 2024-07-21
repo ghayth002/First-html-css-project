@@ -1,0 +1,36 @@
+h3,h2{ 
+    color: green;
+
+
+}
+
+thead{color: blue;
+
+}
+tbody{
+    color: burlywood;
+}
+
+  p.test{
+    color: darkmagenta;
+
+
+}
+#ghayth{
+    color: bisque;
+}
+*{
+    color: darkkhaki;
+}
+div p strong{
+    color: red;
+}
+div h2 strong{
+    color: blue;
+}
+div > h2 {
+    color: aquamarine ;
+}
+.section1 #list1 .jalabi{
+    color: chartreuse;
+}
