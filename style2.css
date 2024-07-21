@@ -1,0 +1,14 @@
+.AA{
+    background: red;
+    width: fit-content;
+}
+.rr{
+    background-color: blue;
+    width: min-content;
+}
+.ff{
+    background: green;
+    width: max-content;
+    
+}
+ 

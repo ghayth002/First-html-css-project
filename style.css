@@ -19,9 +19,7 @@ tbody{
 #ghayth{
     color: bisque;
 }
-*{
-    color: darkkhaki;
-}
+
 div p strong{
     color: red;
 }
@@ -34,3 +32,23 @@ div > h2 {
 .section1 #list1 .jalabi{
     color: chartreuse;
 }
+.A > .b{
+    color: red; 
+}
+ .C > .border{
+    border: solid 3px red;
+    width: 600px;  
+    height:50px;
+    padding: 100px 20PX 30pX 0px ;
+    margin: 100px 100px 30PX 0PX;
+ 
+ }  
+ .D{
+    height: 200px;
+    background-color: blue;
+width: 30%;
+    margin-left:auto;
+    margin-right: auto;
+
+
+ }
