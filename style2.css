@@ -11,4 +11,55 @@
     width: max-content;
     
 }
+ .width{
+    background: blue;
+    width: 300px;
+ }
+ .width-m{
+    background:pink ;
+   
+    min-width: 200px;
+    margin-bottom: 40PX;
+ }
+ .height{
+    background: red;
+    height:100px;
+    margin-bottom:30px;
+
+ }
+ .maxheight{
+    background: purple;
+    max-height:299px ;
+ }
+ .minheight{
+   background:brown ;
+   min-height:20px;
+   margin-bottom:50PX;
+ }
+ .hey{width: 300px;
+height:300px;
+background: greenyellow;
+border-radius:300px;
+margin: auto;
+margin-bottom:50%;
+}
+.section2{
+   text-align: center;
+   direction: rtl;
+
+ }
+ .JJ{
+   text-transform: uppercase;
+   text-transform: lowercase;
+   text-transform: capitalize;
+ }
  
+.LL{
+   letter-spacing:2px ;
+   word-spacing: 30px;
+   line-height: 100px;
+   text-decoration-line: line-through overline underline ;
+   text-decoration-color: red;
+   text-decoration: wavy red line-through;
+text-decoration:none;
+}
