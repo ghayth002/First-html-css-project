@@ -63,3 +63,37 @@ margin-bottom:50%;
    text-decoration: wavy red line-through;
 text-decoration:none;
 }
+/* 
+text-shadow:horizontal-shadow vertical-shadow Blur color;
+box-shadow:horizontal-shadow vertical-shadow Blur Spread color inset;
+ */
+.oo > p{
+   text-align: center;
+   text-decoration:dotted blue underline;
+   text-shadow:5px 7px 1px blue,
+   -7px -5px 1px red;
+   text-transform: capitalize;
+   
+}
+.lol{
+   background: red;
+   width: 200px;
+   height: 100px;
+   margin: auto;
+   box-shadow: 1px 1px 10px 5px  blue inset,
+   5px 5px 10px 10px green ;
+
+}
+.wrapping > p{  
+background:orange ;
+white-space:nowrap;
+white-space: normal;
+word-wrap: break-word;/* hedhi ki theb ta3mel espace hata ken jomla wahda les9a fi badhha houwa bech ye7tarem widht mta3 div wala eli houwa*/
+}
+.white-space{
+   background: pink;
+   width: 200px;
+   white-space: pre;
+   white-space: pre-wrap;
+   white-space: pre-line;
+}
