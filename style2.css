@@ -147,11 +147,26 @@ font-weight:
    background-attachment:fixed ;
    
  }*/
- .background{
-   height: 990px;
+body{
+  /* height: 990px;
    border: 4px solid red;
    background-image: url(rep.jpg);
    background-repeat: no-repeat;
    background-position:center  ;
-   background-size:contain /* cover*/;
+   background-size:contain /* cover*/
+ 
+background-image: url(img/img2.jpg);
+background-size: cover;
+background-position:center ; 
+border:10px double red;
+background-origin:border-box ;
+background-repeat:no-repeat ;
+background-attachment: fixed;
+   
  }
+ .background{
+   height: 200px;
+   background-image:linear-gradient(60deg,red,green) ;
+   
+ }
+ 
