@@ -169,4 +169,32 @@ background-attachment: fixed;
    background-image:linear-gradient(60deg,red,green) ;
    
  }
- 
+ #radial-gradient{
+   height:400px;
+   background-image: radial-gradient(circle 400px at left bottom,red,yellow);
+   /* elipse chakel baydhawi yelzmou toul w3aredh*/
+ }
+.parent{
+   background-color:yellow ;
+}
+.red{
+   background: red;
+   width:50px ;
+   height: 50px;
+}
+.green{
+   background: green;
+   width:50px ;
+   height: 50px;
+}
+.blue{
+   background: blue;
+   width:50px ;
+   height: 50px;
+}
+.float{
+  float: right 
+}
+.clear{
+   clear: both;
+}
