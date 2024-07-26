@@ -196,5 +196,66 @@ background-attachment: fixed;
   float: right 
 }
 .clear{
-   clear: both;
+   clear:left
+;
+}
+.overflow{
+  height: 200px;
+  width: 200px;
+  background-color: yellow;
+  border: 5px dotted;   
+  overflow: auto;/*scroll,hidden ama ahsen wahda hiya auto*/  
+
+}
+.parent2{
+   background-color: skyblue;
+   height: 200px ;
+   width: 200px;
+   padding: 10px;
+}
+.parent2 div{
+   height: 50px;
+}
+.one{
+   background-color: tomato;
+   position: relative;/* sticky,fixed*/
+   top: 30PX;
+   left: 40px;
+}
+.two{
+   background-color: gold;
+   position: absolute;
+   top: 39px;
+
+   right:300px;
+  
+}
+
+.three{ 
+   background-color: darkviolet;
+}
+ul,ol{
+   list-style-type: none ;
+   list-style-position: inside;
+   list-style-image: url();
+
+}
+table{
+   width: 100%;
+   border-spacing: 0px;
+   box-shadow:1PX 1px 10px 10px burlywood;
+   
+}
+th{
+   background-color: #0b67d6b1;
+   height: 20px;
+
+}
+td{
+background-color: aqua;
+height: 20px;
+text-align: centre;
+border:4px solid gold ;
+
+
 }
