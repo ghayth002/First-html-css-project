@@ -436,3 +436,18 @@ width: 200px;
    animation-play-state: paused;
    cursor: grab;
 }
+.second{
+   background-color: red;
+   opacity: 0.3;
+
+}
+.first{
+background-color: blue;
+/*visibility:hidden;*/
+display: none;
+}
+/*
+hide:visibility:hidden;
+delete:display:none
+transparency: opacity: 0.3;
+*/
