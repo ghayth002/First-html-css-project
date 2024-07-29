@@ -76,4 +76,42 @@ width: 30%;
     z-index: -2;
  
  }
+ .parent{
+    background-color: gold;
+    padding: 10px;
+    height: 800px;
+    display: flex;/*inline-flex:thotlek size ged eli andek */
+    flex-direction:row ;/* (row-reverse,colomn-reverse)te9leblek chira*/
+    flex-wrap: wrap;/*wrap-reverse :tala3lek lestar lfou9 3aks wrap*/
+    flex-flow: row wrap;/*tajma3 eli 9balhom zouz */
+    justify-content:flex-start;/*tnadhem blaset items//left ,right,center,flex-start:hedha fe row ama ki yabda ana column fe direction twali (te5dem al y) 3ana zeda space-between,space-around,space-evenly(t9asemlek lbo3d binethom belmeswi)*/
+    align-items:flex-start;/*stretch hiya par defaut mawjouda tab3 lheight wala lwidth mta3 parent mte3ha */
+    /*ki nabdew ne5dmou ala direction row align-items wel align-content ye5dmou al Y wel 3kaes fel direction column*/
+    align-content: flex-start;/*hedhi te5dem ki yabda ana flex-wrap me5dha wrap 3akes align-items mouch lezem whedhi najem nekteb feh sapce-between wspace-around */
+ }
+ .parent div{
+    padding: 10px;
+    margin: 10px;
+    
+ }
+ .item1{
+    background-color: green;
+    align-self: stretch;
+    order: 1;
+    flex-basis: 300px;
+ }
+ .item2{
+    background-color: red;
+    order :2;
+    flex-grow: 1
+ }
+ .item3{
+background-color: blue;
+flex-shrink: 0;
+ }
+ .item4{
+    background-color: violet;
+    ;
+ }
+
  
